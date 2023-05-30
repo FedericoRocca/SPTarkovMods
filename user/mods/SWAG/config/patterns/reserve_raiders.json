@@ -1,0 +1,56 @@
+[
+  {
+    "MapName": "rezervbase",
+    "MapGroups": [
+      {
+        "Name": "Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,2,3",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "0,0,0,1,1,2,2",
+        "Time": 800,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "0,0,0,1,1,2,2",
+        "Time": 1800,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSubCommand"
+      }
+    ]
+  }
+]

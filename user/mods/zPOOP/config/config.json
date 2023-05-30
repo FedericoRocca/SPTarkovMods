@@ -1,0 +1,109 @@
+{
+    "disableAllAIChanges": false,
+	"enableAutomaticDifficulty": false,
+	"enableLegendaryPlayerMode": true,
+    "aiChanges": {
+		"chanceChangeScavToWild": 50,
+		"chanceLegendReplacesPMC": 50,
+		"scavAltRolesPickList": [
+			"followerbirdeye", 
+			"followerbigpipe", 
+			"bossknight", 
+			"bosskilla", 
+			"bossbully", 
+			"bosstagilla",
+            "bosszryachiy"
+			],
+        "changeBots": {
+            "lowLevelAIs": [
+                "assault",
+				"marksman", 
+				"cursedassault"
+            ],
+            "midLevelAIs": [
+				"sectantpriest", 
+				"sectantwarrior",
+                "pmcbot",
+				"exusec",
+                "followergluharassault",
+                "followergluharscout",
+                "followergluharsecurity",
+                "followergluharsnipe",
+                "followerkojaniy",
+                "followersanitar",
+                "followerbully",
+				"followertagilla", 
+				"followerbirdeye", 
+				"followerbigpipe",
+                "followerzryachiy"
+            ],
+            "highLevelAIs": [
+                "assaultgroup",
+                "bear",
+                "usec",
+                "exusec"
+            ],
+			"bossLevelAIs": [
+				"bossbully", 
+				"bossgluhar", 
+				"bosskilla", 
+				"bosskojaniy", 
+				"bosssanitar", 
+				"bosstagilla", 
+				"bossknight"
+            ]
+        },
+        "overallAIDifficultyMod": -0.5,
+        "lowLevelAIDifficultyMod_Neg3_3": 0,
+        "midLevelAIDifficultyMod_Neg3_3": 1.15,
+        "highLevelAIDifficultyMod_Neg3_3": 2.65,
+
+        "Note": "These are the MAIN values for adjusting difficulty. If you want an easier or harder time overall, increase or decrease these. For details on these or any other entries, please check the readme."
+    },
+    "overallDifficultyMultipliers": {
+        "aiAimSpeedMult": 1,
+        "aiShotSpreadMult": 1,
+        "aiVisionSpeedMult": 1,
+        "aiAccuracyMult": 1,
+        "sniperBotAccuracyMult": 1,
+        "visibleDistanceMult": 1,
+        "semiAutoFireRateMult": 1,
+        "aiRecoilMult": 1.1,
+        "aiHearingMult": 0.3,
+        "visibleAngleMult": 1,
+        "visibleAngleMax": 320,
+        "grenadePrecisionMult": 1,
+        "grenadeThrowRangeMax": 20,
+        "grenadeThrowRangeMult": 1,
+        "allowAimAtHead": true,
+        "allowGrenades": true,
+        "changeHeadHPValues": false,
+        "setTheseBotsToDefaultPlayerHPBeforeMultsAreUsed": [
+            "botnameshere",
+            "seperatethemwithcommas"
+        ]
+    },
+	"allowHealthTweaks":{
+		"enabled": false,
+		"multipliers": {
+			"PMCHealthMult": 1,
+			"scavHealthMult": 1,
+			"raiderHealthMult": 1,
+			"bossHealthMult": 1,
+			"cultistHealthMult": 1
+		}
+	},
+    "allowBotsToTalk": {
+        "scavs": true,
+        "raiders": true,
+        "PMCs": true,
+        "bosses": true,
+        "rogues": true,
+        "followers": true
+    },
+    "spawnChanges": {
+        "controlOptions": {
+            "roguesNeutralToUsecs": false
+        }
+    }
+}

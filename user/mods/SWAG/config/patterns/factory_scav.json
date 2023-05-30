@@ -1,0 +1,22 @@
+[
+  {
+    "MapName": "factory4_day",
+    "MapGroups": [
+      {
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 4
+          }
+        ],
+        "Time_min": 15,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": null
+      }
+    ],
+    "MapBosses": []
+  }
+]

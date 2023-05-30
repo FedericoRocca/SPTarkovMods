@@ -1,0 +1,34 @@
+
+{
+	"aiDifficulty": "normal",
+	"aiAmount": "asonline",
+	"RandomWaveCount": 10,
+	"BossWaveCount": 1,
+	"SkipOtherBossWavesIfBossWaveSelected": false,
+	"WaveTimerMinSec": 60,
+	"WaveTimerMaxSec": 120,
+	"BossChance": 20,
+	"SniperChance": 50,
+	"pmcWaves": true,
+	"pmcSpawnWeight": 25,
+	"scavSpawnWeight": 70,
+  "ScavInLabs": false,
+	"MaxBotCap": {
+		"factory": 14,
+		"customs": 24,
+		"woods": 26,
+		"shoreline": 26,
+		"lighthouse": 30,
+		"reserve": 24,
+		"interchange": 22,
+		"laboratory": 14,
+		"tarkovstreets": 22
+	},
+	"MaxBotPerZone": 6,
+	"UseDefaultSpawns": {
+		"Waves": false,
+		"Bosses": false,
+		"TriggeredWaves": true
+	},
+	"DebugOutput": false
+}

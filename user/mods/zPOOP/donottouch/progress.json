@@ -1,0 +1,29 @@
+{
+    "e8d6afa14b5d0495fb7a4cb0": {
+        "diffMod": 0.76,
+        "raids": 0,
+        "deaths": 0,
+        "survives": 0,
+        "winStreak": 0,
+        "deathStreak": 1,
+        "lock": false
+    },
+    "7aee0e7867aab3021d7cecd3": {
+        "diffMod": 0.15000000000000002,
+        "raids": 0,
+        "deaths": 0,
+        "survives": 0,
+        "winStreak": 2,
+        "deathStreak": 0,
+        "lock": false
+    },
+    "ace7252a27591301a9641bff": {
+        "diffMod": 0,
+        "raids": 0,
+        "deaths": 0,
+        "survives": 0,
+        "winStreak": 0,
+        "deathStreak": 0,
+        "lock": false
+    }
+}

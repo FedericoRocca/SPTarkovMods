@@ -1,0 +1,44 @@
+[
+  {
+    "MapName": "factory4_night",
+    "MapGroups": [
+      {
+        "Name": "Starting Cultists",
+        "Bots": [
+          {
+            "BotType": "sectantpriest",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sectantwarrior",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 60,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": null
+      },
+      {
+        "Name": "Cultists",
+        "Bots": [
+          {
+            "BotType": "sectantpriest",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sectantwarrior",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 240,
+        "Time_max": 480,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["BotZone"]
+      }
+    ],
+    "MapBosses": []
+  }
+]
